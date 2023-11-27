@@ -9,3 +9,11 @@ window.addEventListener("scroll", function () {
     btn.style.opacity = 1;
   } else btn.style.opacity = 0;
 });
+
+const setHeading = document.getElementById("home-heading");
+const headings = ["TEMPLATE", "SERVICES", "SOLUTIONS"];
+let i = 0;
+setInterval(() => {
+  setHeading.innerText = headings[i++];
+  if (i === 3) i = 0;
+}, 1500);

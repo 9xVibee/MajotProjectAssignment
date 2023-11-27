@@ -177,6 +177,11 @@ body {
     color: white;
 }
 
+.home-heading {
+    transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .column-box {
     display: flex;
     flex-direction: column;
@@ -186,6 +191,7 @@ body {
 }
 
 .details h1 {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 60px;
     text-transform: uppercase;
